@@ -16,7 +16,7 @@ const errorHandlerMiddleware = require("./middleware/error-handler");
 app.use(express.json());
 
 app.use(cors({
-  origin: [''], 
+   origin: 'https://front-task-five.vercel.app', 
   methods: ['GET', 'POST'], 
   allowedHeaders: ['Content-Type', 'Authorization'], 
   credentials:true

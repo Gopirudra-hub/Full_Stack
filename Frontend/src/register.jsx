@@ -82,7 +82,7 @@ const Register = () => {
       </form>
 
       {/* Display success message */}
-      {successMessage && <p className="mt-4 text-green-500">{successMessage}</p>}
+      {successMessage && <p className="mt-4 text-black">{successMessage}</p>}
     </div>
   );
 };

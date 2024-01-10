@@ -16,7 +16,7 @@ const errorHandlerMiddleware = require("./middleware/error-handler");
 app.use(express.json());
 
 app.use(cors({
-  origin: ['https://deploy-mern-1whq.vercel.app'], 
+  origin: [''], 
   methods: ['GET', 'POST'], 
   allowedHeaders: ['Content-Type', 'Authorization'], 
   credentials:true

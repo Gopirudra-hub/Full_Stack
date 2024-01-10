@@ -17,7 +17,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('backend-api-eta-ruddy.vercel.app/api/v1/auth/login-user', {
+      const res = await axios.post('https://backend-api-eta-ruddy.vercel.app/api/v1/auth/login-user', {
         phoneNumber: formData.phoneNumber,
         password: formData.password,
       });

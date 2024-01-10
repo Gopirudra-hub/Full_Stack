@@ -22,7 +22,7 @@ app.use(cors({
   credentials:true
 }));
 app.get("/", (req, res) => {
-  res.send("<h1>Book API</h1>");
+  res.send("<h1>Hello</h1>");
 });
 
 // routes

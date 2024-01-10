@@ -29,8 +29,7 @@ const AddOrder = () => {
         return;
       }
 
-      const res = await axios.post(
-        'backend-api-eta-ruddy.vercel.app/api/v1/auth/add-order',
+      const res = await axios.post('https://backend-api-eta-ruddy.vercel.app/api/v1/auth/add-order',
         orderData,
         {
           headers: {
@@ -55,8 +54,7 @@ const AddOrder = () => {
         return;
       }
 
-      const res = await axios.get(
-        `backend-api-eta-ruddy.vercel.app/api/v1/auth/get-order?user_id=${userId}`,
+      const res = await axios.get(`https://backend-api-eta-ruddy.vercel.app/api/v1/auth/get-order?user_id=${userId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
